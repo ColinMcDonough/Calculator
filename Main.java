@@ -76,71 +76,51 @@ public class Main extends Application {
 		//Create all buttons 0 -9
 		Button button0 = new Button();
 		button0.setText("0");
-		button0.setMinHeight(50);
-		button0.setMinWidth(50);
 		button0.setTranslateX(100);
 		button0.setTranslateY(275);
 
 		Button button1 = new Button();
 		button1.setText("1");
-		button1.setMinHeight(50);
-		button1.setMinWidth(50);
 		button1.setTranslateX(25);
 		button1.setTranslateY(200);
 
 		Button button2 = new Button();
 		button2.setText("2");
-		button2.setMinHeight(50);
-		button2.setMinWidth(50);
 		button2.setTranslateX(100);
 		button2.setTranslateY(200);
 
 		Button button3 = new Button();
 		button3.setText("3");
-		button3.setMinHeight(50);
-		button3.setMinWidth(50);
 		button3.setTranslateX(175);
 		button3.setTranslateY(200);
 
 		Button button4 = new Button();
 		button4.setText("4");
-		button4.setMinHeight(50);
-		button4.setMinWidth(50);
 		button4.setTranslateX(25);
 		button4.setTranslateY(125);
 
 		Button button5 = new Button();
 		button5.setText("5");
-		button5.setMinHeight(50);
-		button5.setMinWidth(50);
 		button5.setTranslateX(100);
 		button5.setTranslateY(125);
 
 		Button button6 = new Button();
 		button6.setText("6");
-		button6.setMinHeight(50);
-		button6.setMinWidth(50);
 		button6.setTranslateX(175);
 		button6.setTranslateY(125);
 
 		Button button7 = new Button();
 		button7.setText("7");
-		button7.setMinHeight(50);
-		button7.setMinWidth(50);
 		button7.setTranslateX(25);
 		button7.setTranslateY(50);
 
 		Button button8 = new Button();
 		button8.setText("8");
-		button8.setMinHeight(50);
-		button8.setMinWidth(50);
 		button8.setTranslateX(100);
 		button8.setTranslateY(50);
 
 		Button button9 = new Button();
 		button9.setText("9");
-		button9.setMinHeight(50);
-		button9.setMinWidth(50);
 		button9.setTranslateX(175);
 		button9.setTranslateY(50);
 
@@ -153,89 +133,67 @@ public class Main extends Application {
 
 		Button buttonA = new Button();
 		buttonA.setText("+");
-		buttonA.setMinHeight(50);
-		buttonA.setMinWidth(50);
 		buttonA.setTranslateX(250);
 		buttonA.setTranslateY(275);
 
 		Button buttonE = new Button();
 		buttonE.setText("=");
-		buttonE.setMinHeight(50);
-		buttonE.setMinWidth(50);
 		buttonE.setTranslateX(175);
 		buttonE.setTranslateY(275);
 
 		Button buttonD = new Button();
 		buttonD.setText("/");
-		buttonD.setMinHeight(50);
-		buttonD.setMinWidth(50);
 		buttonD.setTranslateX(250);
 		buttonD.setTranslateY(50);
 
 		Button buttonM = new Button();
 		buttonM.setText("*");
-		buttonM.setMinHeight(50);
-		buttonM.setMinWidth(50);
 		buttonM.setTranslateX(250);
 		buttonM.setTranslateY(125);
 
 		Button buttonS = new Button();
 		buttonS.setText("-");
-		buttonS.setMinHeight(50);
-		buttonS.setMinWidth(50);
 		buttonS.setTranslateX(250);
 		buttonS.setTranslateY(200);
 
 		Button CE = new Button();
 		CE.setText("CE");
-		CE.setMinHeight(50);
-		CE.setMinWidth(50);
 		CE.setTranslateX(325);
 		CE.setTranslateY(50);
 
 		Button C = new Button();
 		C.setText("C");
-		C.setMinHeight(50);
-		C.setMinWidth(50);
 		C.setTranslateX(400);
 		C.setTranslateY(50);
 
 		Button negation = new Button();
 		negation.setText("negate");
-		negation.setMinHeight(50);
-		negation.setMinWidth(50);
 		negation.setTranslateX(325);
 		negation.setTranslateY(200);
 
 		Button power = new Button();
 		power.setText("^");
-		power.setMinHeight(50);
-		power.setMinWidth(50);
 		power.setTranslateX(325);
 		power.setTranslateY(275);
 
 		Button sqrt = new Button();
 		sqrt.setText("sqrt");
-		sqrt.setMinHeight(50);
-		sqrt.setMinWidth(50);
 		sqrt.setTranslateX(325);
 		sqrt.setTranslateY(125);
 
 		Button square = new Button();
 		square.setText("^2");
-		square.setMinHeight(50);
-		square.setMinWidth(50);
 		square.setTranslateX(400);
 		square.setTranslateY(125);
 
 		Button decimal = new Button();
 		decimal.setText(".");
-		decimal.setMinHeight(50);
-		decimal.setMinWidth(50);
 		decimal.setTranslateX(25);
 		decimal.setTranslateY(275);
 
-		//Text field for display and ans
+		//Text field for display and answer
+		//Text field also allows for a user to click the text box then type in their query
+		
 		TextField textField = new TextField();
 		textField.setMinHeight(45);
 		textField.setMinWidth(475);
@@ -280,11 +238,6 @@ public class Main extends Application {
 		root.getChildren().add(square);
 		root.getChildren().add(slider);
 		root.getChildren().add(decimal);
-
-
-
-
-
 
 
 

@@ -4,8 +4,11 @@
 }
 .button{
 	-fx-background-color: #ffb700;
+	-fx-min-width: 50;
+	-fx-min-height: 50;
 }
 .TextField{
 	-fx-background-color: #000000;
-	-fx-text-fill: #fffffff;
+	
 }
+
